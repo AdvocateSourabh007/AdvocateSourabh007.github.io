@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advocate Sourabh Singh</title>
+</head>
+<body>
+    <h1>Welcome to My Official Website</h1>
+    <p>Criminal & Civil Lawyer at District Court, Kurukshetra.</p>
+    <p>Contact: 8930743007 | Email: drsgjaat@gmail.com</p>
+</body>
+</html>
