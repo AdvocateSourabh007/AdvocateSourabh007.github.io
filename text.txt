@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advocate Sourabh Singh</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 30px 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background: #fff;
+    }
+    .profile-img {
+      display: block;
+      margin: 0 auto;
+      width: 180px;
+      border-radius: 10px;
+    }
+    h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+    .contact-form input[type="text"],
+    .contact-form input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .contact-form input[type="submit"] {
+      background: #333;
+      color: white;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Advocate Sourabh Singh</h1>
+    <p>Criminal & Civil Lawyer</p>
+  </header>
+  <div class="container">
+    <img src="IMG_9074.png" alt="Profile Photo" class="profile-img" />
+    <h2>About</h2>
+    <p>I am a professional Criminal & Civil Lawyer practicing at District Court, Kurukshetra since 2021.</p>
+
+    <h2>Practice Areas</h2>
+    <ul>
+      <li>Criminal Law</li>
+      <li>Civil Disputes</li>
+      <li>Family Matters</li>
+      <li>Property Cases</li>
+    </ul>
+
+    <h2>Client Testimonials</h2>
+    <p>"One of the most trusted lawyers in Kurukshetra. Highly recommended!"</p>
+    <p>"Very professional and experienced. He helped me win a tough case!"</p>
+
+    <h2>Contact Me</h2>
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </div>
+  <footer>
+    Contact: drsgjaat@gmail.com | Phone: 8930743007
+  </footer>
+</body>
+</html>
