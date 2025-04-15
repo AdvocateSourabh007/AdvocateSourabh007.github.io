@@ -2,117 +2,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Advocate Sourabh Singh</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        header {
-            background-color: #555;
-            color: white;
-            padding: 30px 20px;
-            text-align: center;
-        }
-        header img {
-            width: 140px;
-            height: 140px;
-            border-radius: 50%;
-            border: 4px solid white;
-            margin-top: 10px;
-        }
-        section {
-            padding: 30px 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-        h2 {
-            color: #444;
-            border-bottom: 2px solid #ccc;
-            padding-bottom: 5px;
-        }
-        .testimonial {
-            background-color: white;
-            margin: 15px 0;
-            padding: 15px;
-            border-left: 5px solid #888;
-        }
-        .practice-area {
-            background-color: #fff;
-            padding: 15px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-        }
-        form {
-            background-color: white;
-            padding: 20px;
-            border: 1px solid #ccc;
-        }
-        form input[type="text"] {
-            width: 100%;
-            padding: 10px;
-            margin: 8px 0;
-            border: 1px solid #aaa;
-        }
-        form input[type="submit"] {
-            background-color: #555;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            background-color: #ddd;
-            margin-top: 40px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advocate Sourabh Singh</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 30px 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background: #fff;
+    }
+    .profile-img {
+      display: block;
+      margin: 0 auto 10px auto;
+      width: 200px;
+      height: auto;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+    .contact-form input[type="text"],
+    .contact-form input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .contact-form input[type="submit"] {
+      background: #333;
+      color: white;
+      border: none;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Advocate Sourabh Singh</h1>
-        <p>Criminal & Civil Lawyer | Practicing since 2021</p>
-        <img src="profile.png" alt="Advocate Sourabh Singh Photo" />
-    </header>
+  <header>
+    <h1>Advocate Sourabh Singh</h1>
+    <p>Criminal & Civil Lawyer</p>
+  </header>
+  <div class="container">
+    <img src="IMG_9074.png" alt="Advocate Sourabh Singh" class="profile-img" />
+    <h2>About</h2>
+    <p>I am a professional Criminal & Civil Lawyer practicing at District Court, Kurukshetra since 2021.</p>
 
-    <section>
-        <h2>Practice Areas</h2>
-        <div class="practice-area">Criminal Law</div>
-        <div class="practice-area">Civil Disputes</div>
-        <div class="practice-area">Bail & Anticipatory Bail</div>
-        <div class="practice-area">Legal Consultation</div>
-    </section>
+    <h2>Practice Areas</h2>
+    <ul>
+      <li>Criminal Law</li>
+      <li>Civil Disputes</li>
+      <li>Family Matters</li>
+      <li>Property Cases</li>
+    </ul>
 
-    <section>
-        <h2>Client Testimonials</h2>
-        <div class="testimonial">
-            <strong>Ravi Mehta:</strong> "Sourabh sir handled my case with utmost professionalism. Highly recommend him!"
-        </div>
-        <div class="testimonial">
-            <strong>Neha Sharma:</strong> "Got timely bail thanks to his great experience and strategy."
-        </div>
-        <div class="testimonial">
-            <strong>Amit Verma:</strong> "Very clear guidance and great courtroom presence. Best advocate in Kurukshetra."
-        </div>
-    </section>
+    <h2>Client Testimonials</h2>
+    <p>"One of the most trusted lawyers in Kurukshetra. Highly recommended!"</p>
+    <p>"Very professional and experienced. He helped me win a tough case!"</p>
 
-    <section>
-        <h2>Contact</h2>
-        <form>
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required />
-            <input type="submit" value="Submit" />
-        </form>
-    </section>
-
-    <footer>
-        &copy; 2025 Advocate Sourabh Singh | District Court, Kurukshetra
-    </footer>
+    <h2>Contact Me</h2>
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </div>
+  <footer>
+    Contact: drsgjaat@gmail.com | Phone: 8930743007
+  </footer>
 </body>
 </html>
